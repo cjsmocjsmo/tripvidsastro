@@ -1,0 +1,65 @@
+---
+	import BackArrow from '../components/BackArrow.astro';
+	let title = 'My Astro Site';
+---
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>{title}</title>
+
+	<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+	<style global>
+		@import "../styles/global.css";
+	</style>
+</head>
+<body>
+	<main>
+		<BackArrow />
+		<h1>Texas Trip</h1>
+		<div class="vid-div">
+			<div class="vidWrapper">
+				<iframe 
+					class="iframeWrapper"
+					src="https://www.youtube.com/embed/Wy2818Jq2Nw" 
+					title="Texas Trip video player" 
+					frameborder="0" 
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+					allowfullscreen>
+				</iframe>
+			</div>
+			<div class="vidWrapper">
+				<iframe 
+					class="iframeWrapper"
+					src="https://www.youtube.com/embed/Qp8EZr5hyrs" 
+					title="Texas Trip video player" 
+					frameborder="0" 
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+					allowfullscreen>
+				</iframe>
+			</div>
+			<div class="vidWrapper">
+				<iframe 
+					class="iframeWrapper"
+					src="https://www.youtube.com/embed/0Tgv2y_qVNQ" 
+					title="Texas Trip video player" 
+					frameborder="0" 
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+					allowfullscreen>
+				</iframe>
+			</div>
+			<div class="vidWrapper">
+				<iframe  
+					class="iframeWrapper"
+					src="https://www.youtube.com/embed/_b2oRXJPR_A" 
+					title="Texas Trip video player" 
+					frameborder="0" 
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+					allowfullscreen>
+				</iframe>
+			</div>
+		</div>
+	</main>
+</body>
+</html>
+

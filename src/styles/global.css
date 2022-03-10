@@ -1,0 +1,30 @@
+body {
+	background-color: black;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	/* gap: 1em;
+	max-width: min(100%, 68ch); */
+}
+
+.iframeWrapper {
+	height: 281px;
+	width: 500px;
+	margin: 10px;
+}
+
+.vid-div {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	
+}
