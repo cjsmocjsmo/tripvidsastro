@@ -1,0 +1,14 @@
+---
+    const {src} = Astro.props;
+---
+
+<div class="vidWrapper">
+	<iframe 
+		class="iframeWrapper"
+		src={src} 
+		title="Texas Trip video player" 
+		frameborder="0" 
+		allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+		allowfullscreen>
+	</iframe>
+</div> 
